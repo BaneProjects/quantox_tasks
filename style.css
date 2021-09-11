@@ -9,7 +9,9 @@ body{
 }
 
 #holder{
-    background-color: hsl(185, 75%, 39%);  
+    background: url(images/bg-pattern-top.svg) no-repeat,
+    url(images/bg-pattern-bottom.svg) no-repeat,hsl(185, 75%, 39%);  
+    background-position: right 50vw bottom 45vh, left 50vw top 45vh;   
     height: 100vh;
     margin: auto;
     max-width:1440px;
@@ -98,14 +100,3 @@ body{
     letter-spacing: 1px;
 }
 
-.round img{
-    position: absolute;
-}
-.round .round1{
-  top:-610px;
-  left:-190px;
-}
-.round .round2{
- bottom: -680px;
- right: -190px;
-}
